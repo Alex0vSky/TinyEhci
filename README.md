@@ -19,10 +19,10 @@ or write
 ## Tests
 
 ## Build
-*.asm - callable code
-*.inc - defines, true/false, contants
-*.inl - inline code
-*.mac - macro with arguments
+- *.asm - callable code
+- *.inc - defines, true/false, contants
+- *.inl - inline code
+- *.mac - macro with arguments
 
 ## Contributing
 Can ask questions. PRs are accepted. No requirements for contributing.
