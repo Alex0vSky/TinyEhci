@@ -1,0 +1,4 @@
+; dvc/Pci/Usb/Ehci/macro.mac - work with USB type Ehci, macros
+
+; Macro for calculating the index of the "PCI" port from "BDF" when the offset is known in advance
+%define macro_maskPciAccess(xAddr) ( ( xAddr ) & 3 )

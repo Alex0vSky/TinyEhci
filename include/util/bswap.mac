@@ -1,0 +1,10 @@
+; util/bswap.mac - reverses the byte order
+%ifndef def_util$bswap$_once ; #pragma once
+%define def_util$bswap$_once
+
+; Reverses the byte order of a double word. Analog to bswap/MSB_LSB/inet_ntoa, MSB(most significant bit)
+;	@insp https://docs.roguewave.com/en/klocwork/current/porting.bswap.macro
+%define bswap_32(x) ( ((x) & 0xff) << 24 ) | ( (((x) >> 8) & 0xff) << 16 ) | ( (((x) >> 16) & 0xff) << 8 ) | ( (((x) >> 24) & 0xff) )
+%define bswap_16(x) ( ((x) & 0xff) << 8 ) | ( (((x) >> 8) & 0xff) << 0 )
+
+%endif ; def_util$bswap$_once
