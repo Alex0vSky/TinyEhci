@@ -3,18 +3,17 @@
 https://en.wikipedia.org/wiki/Assembly_language
 )
 
-Tiny, less then 512 bytes, ehci(usb2) reading on bare-metal
+Tiny, less then 512 bytes, EHCI reading on bare-metal
 
 ## Features
-Completely search process to find only certain stick in USB2 slot.
-Tricks to reduce all of them and
-detail in [explanation](https://alex0vsky.github.io/posts/TinyEhci#Explanation) text
+A *full* search is performed to find only the specific memory card in the USB2 slot.
+Tricks, how to reduce them, and details in [explanations](https://alex0vsky.github.io/posts/TinyEhci#Explanation)
 
 ## Requirements
 Nasm, Qemu or Hadrware with supporting boot of Usb Legacy, something like HxD to write bootsector in usbstick
 
 ## Install
-If you want to burn boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector)
+If you want to write boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector)
 
 ## Usage
 Change the path to __qemu__ and __nasm__ in `include/paths.cmd`
@@ -40,6 +39,7 @@ Can ask questions. PRs are accepted. No requirements for contributing.
 
 ## Thanks
 [tatOs](https://github.com/tatimmer/tatOS), [kolibriOs](https://github.com/KolibriOS)
+
 USB2 Standard group https://www.usb.org/
 - SCSI Commands Reference Manual - Seagate
 - SCSI Block Commands - 3 (SBC-3)
