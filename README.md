@@ -14,31 +14,39 @@ detail in [explanation](https://alex0vsky.github.io/posts/TinyEhci#Explanation) 
 Nasm, Qemu or Hadrware with supporting boot of Usb Legacy, something like HxD to write bootsector in usbstick
 
 ## Install
-If wonna write bootsector in usbstick [install](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector) some text...
+If you want to burn boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector)
 
 ## Usage
-Modify path to _qemu_ and _nasm_ in `include/paths.cmd`
-Build `step5_gh/bootsector.img` and after, run in *qemu* emulator
+Change the path to __qemu__ and __nasm__ in `include/paths.cmd`
+Build `step5_gh/bootsector.img` and then run the *qemu* emulator.
 `step5_gh/build_and_run_nographic.bat`
-or write built `bootsector.img` to *flash usb stick*, starting from first sector
-Then, need to switch on your BIOS to loading from USB, and enable "Legacy Usb" mode
+or write the assembled `step5_gh/bootsector.img` to *flash usb stick*, starting from the first sector..
+Then you need to switch the BIOS to boot from USB and enable the "Legacy Usb" mode.
 
 ## Tests
-comming soon partially
+...comming soon partially...
 
 ## Build
-Just pass include path to nasm for compiling single `bootsector.asm`
+Just provide the path to nasm to compile one `bootsector.asm`
+
 File extension convention:
-*.asm - callable code
-*.inc - defines, true/false, contants
-*.inl - inline code
-*.mac - macro with arguments
+- *.asm - callable code
+- *.inc - defines, true/false, contants
+- *.inl - inline code
+- *.mac - macro with arguments
 
 ## Contributing
 Can ask questions. PRs are accepted. No requirements for contributing.
 
 ## Thanks
-USB2 Standard group, tatOs, kolibriOs
+[tatOs], [kolibriOs]
+USB2 Standard group https://www.usb.org/
+- SCSI Commands Reference Manual - Seagate
+- SCSI Block Commands - 3 (SBC-3)
+- SCSI Block Commands - 2 (SBC-2)
+- Universal Serial Bus Specification, Revision 2.0
+- usbmassbulk_10.pdf
+- ehci-specification-for-usb.pdf
 
 ## License
 See the [LICENSE](https://github.com/Alex0vSky/TinyEhci/blob/main/LICENSE) file for license rights and limitations (MIT).
