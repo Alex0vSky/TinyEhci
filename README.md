@@ -14,7 +14,8 @@ Tricks, how to reduce them, and details in [explanations](https://alex0vsky.gith
 
 To run
 - [__Qemu__](https://github.com/qemu) to run "local"/RightNow in Emulator/VM.
-- Hardware with "Usb Legacy" boot support and something like [HxD](https://en.wikipedia.org/wiki/HxD) to write the boot sector to a usbstick.
+- To run on real hardware in the real world: hardware with "Usb Legacy" boot support and something like [HxD](https://en.wikipedia.org/wiki/HxD) to write the boot sector to a usbstick.
+
 Hardware requirements details in [blog](https://alex0vsky.github.io/posts/TinyEhci#requirements)
 
 ## Install
