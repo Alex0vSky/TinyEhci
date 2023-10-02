@@ -7,13 +7,13 @@ Tiny, less then 512 bytes, EHCI reading on bare-metal
 
 ## Features
 A *full* search is performed to find only the specific memory card in the USB2 slot.
-Tricks, how to reduce them, and details in [explanations](https://alex0vsky.github.io/posts/TinyEhci#Explanation)
+Tricks, how to reduce them, and details in [explanations](https://alex0vsky.github.io/posts/TinyEhci#explanation)
 
 ## Requirements
 Nasm, Qemu or Hadrware with supporting boot of Usb Legacy, something like HxD to write bootsector in usbstick
 
 ## Install
-If you want to write boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector)
+If you want to write boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector). It is not safe!
 
 ## Usage
 Change the path to __qemu__ and __nasm__ in `include/paths.cmd`
