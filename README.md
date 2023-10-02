@@ -11,10 +11,9 @@ Tricks, how to reduce them, and details in [explanations](https://alex0vsky.gith
 
 ## Requirements
 [__Nasm__](https://github.com/netwide-assembler/nasm) to building.
-
 [__Qemu__](https://github.com/qemu) to run "local"/RightNow in Emulator/VM.
-Hadrware with supporting boot of Usb Legacy and something like HxD to write bootsector in usbstick.
-Hadrware requirements details in [blog](https://alex0vsky.github.io/posts/TinyEhci#requirements)
+Hardware with "Usb Legacy" boot support and something like [HxD](https://en.wikipedia.org/wiki/HxD) to write the boot sector to a usbstick.
+Hardware requirements details in [blog](https://alex0vsky.github.io/posts/TinyEhci#requirements)
 
 ## Install
 If you want to write boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector). It is not safe!
