@@ -10,7 +10,11 @@ A *full* search is performed to find only the specific memory card in the USB2 s
 Tricks, how to reduce them, and details in [explanations](https://alex0vsky.github.io/posts/TinyEhci#explanation)
 
 ## Requirements
-Nasm, Qemu or Hadrware with supporting boot of Usb Legacy, something like HxD to write bootsector in usbstick
+[__Nasm__](https://github.com/netwide-assembler/nasm) to building.
+
+[__Qemu__](https://github.com/qemu) to run "local"/RightNow in Emulator/VM
+or Hadrware with supporting boot of Usb Legacy, something like HxD to write bootsector in usbstick
+details in [requirements](https://alex0vsky.github.io/posts/TinyEhci#requirements)
 
 ## Install
 If you want to write boot sector to UsbDrive/usbstick/FlashCard [screenshots](https://alex0vsky.github.io/posts/TinyEhci#write_bootsector). It is not safe!
