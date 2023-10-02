@@ -3,7 +3,7 @@
 https://en.wikipedia.org/wiki/Assembly_language
 )
 
-Tiny, less then 512 bytes, EHCI reading on bare-metal
+Tiny, less than 512 bytes, bare metal EHCI read
 
 ## Features
 A *full* search is performed to find only the specific memory card in the USB2 slot.
