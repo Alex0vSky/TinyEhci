@@ -1,4 +1,5 @@
-; C:\Prj\HomoT\step3_usb\config.inc - configuration
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
+; step5_gh\config.inc - configuration
 
 ; Screen display method.
 ;	use BIOS interrupts.

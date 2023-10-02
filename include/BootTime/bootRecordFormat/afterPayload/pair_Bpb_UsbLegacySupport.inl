@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; BootTime/bootRecordFormat/afterPayload/pair_Bpb_UsbLegacySupport.inl - completion for BootTime/bootRecordFormat/beforePayload/pair_Bpb_UsbLegacySupport.inl
 
 %ifndef def_$BootTime$bootRecordFormat$aft$UsbLegacySupport$_once

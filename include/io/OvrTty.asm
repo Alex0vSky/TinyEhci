@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; io/OvrTty.asm - base for output to video terminal in text mode, {T}ele{TY}pe
 
 ; Only if the self-explanatory output "Dword" is not specified

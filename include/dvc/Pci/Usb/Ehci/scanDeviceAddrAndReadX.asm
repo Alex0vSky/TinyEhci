@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/scanDeviceAddrAndReadX.asm - scan "DeviceAddr" of the "EHCI" controller and read sectors from there
 %ifndef def_dvc$Pci$Usb$Ehci$scanDeviceAddrAndReadX$_once ; #pragma once
 %define def_dvc$Pci$Usb$Ehci$scanDeviceAddrAndReadX$_once

@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Vga/standalonePrintHexDword.asm - outputting a double word in hexadecimal format to the screen, a self-contained option. The goal is minimum code
 %ifndef def_dvc$Vga$standalonePrintHexDword$_once ; #pragma once
 %define def_dvc$Vga$standalonePrintHexDword$_once

@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; util/bswap.mac - reverses the byte order
 %ifndef def_util$bswap$_once ; #pragma once
 %define def_util$bswap$_once

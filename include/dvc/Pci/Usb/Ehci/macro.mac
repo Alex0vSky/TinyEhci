@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/macro.mac - work with USB type Ehci, macros
 
 ; Macro for calculating the index of the "PCI" port from "BDF" when the offset is known in advance

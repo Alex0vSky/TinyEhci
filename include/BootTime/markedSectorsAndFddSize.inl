@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; BootTime/markedSectorsAndFddSize.inl - stub which usually goes at the end of the bootsector, but the code used is also located in eight sectors
 
 ; Number of sectors for "recognizable" padding

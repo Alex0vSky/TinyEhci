@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; BootTime/bootRecordFormat/beforePayload/pair_Bpb_UsbLegacySupport.inl - on the hardware the flash drive is displayed as "USB FDD label"
 ;	@insp \include\BootTime\bootRecordFormat\beforePayload\pair_Fat12BootRecord_kolibriOs.inl
 ;	@insp https://infogalactic.com/info/BIOS_Parameter_Block

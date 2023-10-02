@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/asyncList/directAcsBlkCmd/common.inc - constants
 %ifndef def_dvc$Pci$Usb$Ehci$asyncList$directAcsBlkCmd$common$_once ; #pragma once
 %define def_dvc$Pci$Usb$Ehci$asyncList$directAcsBlkCmd$common$_once

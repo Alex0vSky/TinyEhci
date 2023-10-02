@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Vga/TextMode.inc - constants for the terminal in text mode (mode 03, CGA-compatible text mode)
 
 ; Note: VGA frame buffer address range 0xA0000 to 0xBFFFF

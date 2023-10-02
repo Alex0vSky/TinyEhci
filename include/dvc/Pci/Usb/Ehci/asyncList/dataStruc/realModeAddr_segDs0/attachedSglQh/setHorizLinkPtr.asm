@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/asyncList/dataStruc/realModeAddr_segDs0/attachedSglQh/setHorizLinkPtr.asm - creation of data structures by code in memory segment 0 pointed to by the "ds" register, one "Qh" connected to the existing one from the BIOS "Qh"
 %ifndef def_dvc$Pci$Usb$Ehci$asyncList$dataStruc$realModeAddr_segDs0$attachedSglQh$setHorizLinkPtr$_once ; #pragma once
 %define def_dvc$Pci$Usb$Ehci$asyncList$dataStruc$realModeAddr_segDs0$attachedSglQh$setHorizLinkPtr$_once

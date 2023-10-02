@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; io/Tty/UsingPrintChar.asm - a set of functions using the "PrintChar" implementation for displaying on the screen
 
 %ifdef def_$io$Tty$UsingPrintChar$bAllow_hexByte

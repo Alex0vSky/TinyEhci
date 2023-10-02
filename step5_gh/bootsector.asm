@@ -1,4 +1,5 @@
-; C:\Prj\sysbare\HomoT\step5_gh\bootsector.asm - main
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
+; step5_gh\bootsector.asm - main
 BITS 16
 ORG 0x7C00
 SECTION .bootsector

@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/find/pio/callAfterFound.asm - calling a certain function after finding the "EHCI" controller
 %ifndef def_dvc$Pci$Usb$Ehci$find$pio$callAfterFound$_once ; #pragma once
 %define def_dvc$Pci$Usb$Ehci$find$pio$callAfterFound$_once

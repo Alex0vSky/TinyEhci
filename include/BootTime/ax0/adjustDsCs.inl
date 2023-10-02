@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; BootTime/ax0/adjustDsCs.inl - configure segment registers "ds" and "cs" 16bit (ax=0), @insp smbmbr03.zip\SMBMBR.ASM
 
 	; zeros everywhere

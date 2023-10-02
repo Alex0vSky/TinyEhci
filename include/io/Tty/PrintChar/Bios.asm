@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; io/Tty/PrintChar/Bios.asm - output to a video terminal in text mode using BIOS methods
 %ifndef def_io$Tty$PrintChar$Bios$_once ; #pragma once
 %define def_io$Tty$PrintChar$Bios$_once

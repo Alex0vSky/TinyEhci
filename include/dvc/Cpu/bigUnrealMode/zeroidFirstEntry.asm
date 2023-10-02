@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Cpu/bigUnrealMode/zeroidFirstEntry.asm - working with Big Unreal Mode, the first entry from the table (not used by the processor) is filled with zeros
 %ifndef def_dvc$Cpu$bigUnrealMode$zeroidFirstEntry$_once ; #pragma once
 %define def_dvc$Cpu$bigUnrealMode$zeroidFirstEntry$_once

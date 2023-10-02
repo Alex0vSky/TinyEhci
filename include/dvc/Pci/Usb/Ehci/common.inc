@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; dvc/Pci/Usb/Ehci/common.inc - working with USB type Ehci, constants
 ; description of field bits in comments from dvc\Pci\Usb\Ehci\directHardware\diag.asm
 

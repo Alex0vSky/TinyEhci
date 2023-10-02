@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; BootTime/adjustStack/ax0/belowThenBootsector.inl - stack setup, below the loaded bootsector (ax=0)
 
 	; The stack grows downwards, i.e. the next address used will be [sp - 2] (for 16 bits).

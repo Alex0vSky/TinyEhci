@@ -1,3 +1,4 @@
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 ; io/ConfiguredTty.asm - main file including code for text video mode functionality
 %ifndef def_$io$ConfiguredTty$_once ; #pragma once
 %define def_$io$ConfiguredTty$_once

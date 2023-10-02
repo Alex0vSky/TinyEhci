@@ -1,3 +1,4 @@
+@REM Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
 @echo off & REM ./step5_gh/build_and_run_nographic.bat - builder
 
 REM Config

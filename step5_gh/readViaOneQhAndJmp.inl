@@ -1,4 +1,5 @@
-; C:\Prj\sysbare\HomoT\step5_gh\readViaOneQhAndJmp.inl - reading sectors using one "Qh" and "jmp" there when a signature is found, inserted
+; Copyright 2023 Alex0vSky (https://github.com/Alex0vSky)
+; step5_gh\readViaOneQhAndJmp.inl - reading sectors using one "Qh" and "jmp" there when a signature is found, inserted
 
 ; -------------------------------------------------------------------------------------------------
 ; -//- 
