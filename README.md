@@ -20,14 +20,14 @@ If you want to burn boot sector to UsbDrive/usbstick/FlashCard [screenshots](htt
 Change the path to __qemu__ and __nasm__ in `include/paths.cmd`
 Build `step5_gh/bootsector.img` and then run the *qemu* emulator.
 `step5_gh/build_and_run_nographic.bat`
-or write the assembled `step5_gh/bootsector.img` to *flash usb stick*, starting from the first sector..
+or write the assembled `step5_gh/bootsector.img` to *flash usb stick*, starting from the first sector.
 Then you need to switch the BIOS to boot from USB and enable the "Legacy Usb" mode.
 
 ## Tests
 ...comming soon partially...
 
 ## Build
-Just provide the path to nasm to compile one `bootsector.asm`
+Just provide the path to __nasm__ to compile one `bootsector.asm`
 
 File extension convention:
 - *.asm - callable code
@@ -39,7 +39,7 @@ File extension convention:
 Can ask questions. PRs are accepted. No requirements for contributing.
 
 ## Thanks
-[tatOs], [kolibriOs]
+[tatOs](https://github.com/tatimmer/tatOS), [kolibriOs](https://github.com/KolibriOS)
 USB2 Standard group https://www.usb.org/
 - SCSI Commands Reference Manual - Seagate
 - SCSI Block Commands - 3 (SBC-3)
